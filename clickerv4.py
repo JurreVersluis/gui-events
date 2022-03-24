@@ -11,7 +11,7 @@ def check():
         window.config(bg="grey")
 
 
-def upnumber(event):
+def upnumber(event=''):
     global getal1, lastpressed
     getal1 += 1
     lastpressed = 'up'
@@ -19,7 +19,7 @@ def upnumber(event):
     check()
 
 
-def downnumber(event):
+def downnumber(event=''):
     global getal1, lastpressed
     getal1 -= 1
     lastpressed = 'down'
